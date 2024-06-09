@@ -1,0 +1,180 @@
+body {
+  /* background-color: #181a2a; */
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  object-position: center left;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  background: rgba(0, 0, 0, 0.5); /* Optional: To improve text readability */
+  padding: 10px;
+  width: 50%;
+  height: 100px;
+}
+
+.carousel-image {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+.profile-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  /* height: 300px; */
+}
+
+.effect {
+  transition: transform 250ms;
+}
+
+.effect:hover {
+  transform: translateY(-10px);
+}
+
+.profile-card img {
+  border-radius: 0;
+  width: 100%;
+  height: 45vh;
+}
+.profile-card .card-body {
+  background-color: #007bff;
+  color: white;
+}
+
+.welcome-section {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cta-section {
+  background-color: #4b134f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.cta-section .btn {
+  background-color: white;
+  color: #4b134f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.seminar-section {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+.seminar-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.seminar-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-custom {
+  background-color: #4b134f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 40px 0;
+}
+.footer a {
+  color: #ccc;
+}
+.footer a:hover {
+  color: white;
+}
+.footer .newsletter input {
+  background-color: #343a40;
+  border: none;
+  color: white;
+}
+.footer .newsletter button {
+  background-color: #4b134f;
+  border: none;
+}
+.footer .bottom-bar {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.news-banner {
+  position: relative;
+  background-image: url("assets/standard-quality-control-collage-concept.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.news-banner h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.overview-section {
+  padding: 40px 0;
+}
+.overview-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.overview-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-body {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contact-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
